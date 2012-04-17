@@ -7,7 +7,25 @@ float: right;
 }
 */
 
+/*
+
+body {
+	background-image: url(../img/paper-background.jpg);
+	background-attachment: fixed;
+}
+*/
 
 .region-user-second-inner {
+
+}
+
+.block-system-main-menu {
+	font-size: 200%;
+
+}
+
+.site-slogan {
+padding-top: 4%;
+font-size: 200%;
 
 }

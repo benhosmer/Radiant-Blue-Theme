@@ -3,6 +3,39 @@
 
 
 
+/* Link Styling */
+
+a.active {
+	color: #D2D2D2;
+
+}
+
+a:hover {
+	color: #F0F0F0;
+}
+
+a:visited {
+	color: #2A2A2A;
+}
+
+a:link {
+	color: #4A4A4A;
+}
+
+a {
+	color: #4A4A4A;
+}
+
+
+li a.active {
+	color: #D2D2D2;
+}
+
+
+
+
+
+
 /* How about a nice off-white for the background? */
 
 body { 
@@ -53,4 +86,9 @@ body {
 
 #zone-menu-wrapper {
 	padding-top: 1%;
+}
+
+
+#zone-footer-wrapper {
+	background-color: black;
 }
