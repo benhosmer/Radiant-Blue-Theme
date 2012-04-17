@@ -1,0 +1,38 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+body { 
+	background-color: #FBFBEF;
+}
+
+.region-user-second .block-user-menu {
+	background-color: orange;
+}
+
+.region-user-second .block {
+	padding-bottom: 1%;
+}
+
+.region-user-second .block-user-menu ul li.leaf{
+	display: inline;
+	list-style-type: none;
+}
+
+#zone-branding-wrapper {
+	border: 0;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-style: dashed;
+	border-color: dimgray;
+
+}
+
+#zone-branding {
+
+}
+
+#zone-menu-wrapper {
+	padding-top: 1%;
+}
