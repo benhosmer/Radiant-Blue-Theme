@@ -1,26 +1,46 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
+
+
+/* How about a nice off-white for the background? */
+
 body { 
 	background-color: #FBFBEF;
 }
 
-.region-user-second .block-user-menu {
-	background-color: orange;
+
+
+#zone-user-wrapper {
+	padding-top: 2%;
+	padding-bottom: 1%;
 }
+
+
+/* Make the menus display horizontally */
+
+.region-branding .block-main-menu ul li.leaf {
+	display: inline;
+	list-style-type: none;
+}
+
+.region-user-second .block-user-menu ul li.leaf {
+	display: inline;
+	list-style-type: none;
+}
+
+/* End Horizontal Menus */
+
 
 .region-user-second .block {
 	padding-bottom: 1%;
 }
 
-.region-user-second .block-user-menu ul li.leaf{
-	display: inline;
-	list-style-type: none;
-}
+/* A nice clean dashed-line to offset the branding area */
 
 #zone-branding-wrapper {
 	border: 0;
-	border-top-width: 0px;
+	border-top-width: 1px;
 	border-right-width: 0px;
 	border-bottom-width: 1px;
 	border-left-width: 0px;
@@ -29,9 +49,7 @@ body {
 
 }
 
-#zone-branding {
-
-}
+/* Let the menu breathe a little bit */
 
 #zone-menu-wrapper {
 	padding-top: 1%;
