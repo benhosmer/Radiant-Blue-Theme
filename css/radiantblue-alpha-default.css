@@ -38,3 +38,16 @@ padding-top: 4%;
 font-size: 200%;
 
 }
+
+#zone-footer-wrapper {
+	padding-top: 1%;
+}
+
+.region-footer-second .block-menu-menu-clone-main-menu ul li.leaf {
+	display: inline;
+	list-style-type: none;
+}
+
+.region-footer-second .block-menu-menu-clone-main-menu a {
+	color: white;
+}
