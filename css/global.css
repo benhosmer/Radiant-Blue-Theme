@@ -65,6 +65,17 @@ a.active {
 	padding: 2%;
 }
 
+.logo-img {
+clear: both;
+margin-right: 20px;
+text-align: center;
+}
+
+.site-name-slogan {
+clear: both;
+text-align: center;
+}
+
 
 
 /* How about a nice off-white for the background? */
@@ -84,6 +95,7 @@ body {
 .block-system-main-menu {
 	font-family: SpecialElite;
 	text-decoration: none;
+	font-size: 250%;
 	/*text-shadow: #000 1px 1px 1px;*/
 	/*filter: Shadow(Color=#666666, Direction=135, Strength=5); /* Shadows for IE */ 
 
@@ -140,4 +152,36 @@ body {
 .region-sidebar-first .block {
 	border: dashed 1px;
 	padding: 3%;
+}
+
+
+
+/* Mobile Styling */
+
+#zone-user {
+	text-align: center;
+ }
+
+#region-user-second {
+ 	clear: both;
+ 	text-align: center;
+ }
+
+
+ .region-user-second-inner {
+ 	clear: both;
+ 	text-align: center;
+ }
+
+
+.region-branding .block-main-menu ul li.leaf {
+	display: block;
+	list-style-type: none;
+	border: dashed 1px;
+	text-align:	center;
+
+}
+
+p {
+	font-size: 130%;
 }

@@ -2,4 +2,16 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 
- 
+ .block-system-main-menu {
+ 	font-size: 175%;
+	
+ }
+
+ .region-branding .block-main-menu ul li.leaf {
+	display: inline;
+	list-style-type: none;
+	border-top: dashed 1px;
+	border-right: dashed 1px;
+	border-bottom: none;
+	border-left: none;
+}

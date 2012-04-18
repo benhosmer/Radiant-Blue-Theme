@@ -16,7 +16,9 @@ body {
 */
 
 
-
+p {
+	font-size: 100%;
+}
 
 #region-user-second {
  	float: right;
@@ -29,7 +31,8 @@ body {
 
 
 .block-system-main-menu {
-	font-size: 200%;
+	font-size: 150%;
+	
 
 }
 
@@ -57,4 +60,6 @@ font-size: 200%;
 	list-style-type: none;
 	border-top: dashed 1px;
 	border-right: dashed 1px;
+	border-bottom: none;
+	border-left: none;
 }

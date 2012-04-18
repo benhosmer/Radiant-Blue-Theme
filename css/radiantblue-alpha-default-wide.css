@@ -1,1 +1,15 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+.block-system-main-menu {
+	font-size: 200%;
+
+}
+
+.region-branding .block-main-menu ul li.leaf {
+	display: inline;
+	list-style-type: none;
+	border-top: dashed 1px;
+	border-right: dashed 1px;
+	border-bottom: none;
+	border-left: none;
+}
