@@ -48,6 +48,13 @@ font-size: 200%;
 	list-style-type: none;
 }
 
-.region-footer-second .block-menu-menu-clone-main-menu a {
-	color: white;
+.site-name-slogan {
+	float: right;
+}
+
+.region-branding .block-main-menu ul li.leaf {
+	display: inline;
+	list-style-type: none;
+	border-top: dashed 1px;
+	border-right: dashed 1px;
 }

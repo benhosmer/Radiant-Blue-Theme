@@ -32,6 +32,10 @@
 }
 */
 
+.site-name-slogan {
+	color: #A5A5A5;
+}
+
 a:link {
 	color: #4A4A4A;
 	text-decoration: none;
@@ -52,6 +56,7 @@ a {
 
 a.active {
 	color: #0A0A0A;
+	text-decoration: underline;
 
 }
 
@@ -130,4 +135,9 @@ body {
 
 .region-footer-second .block-menu-menu-clone-main-menu a {
 	color: white;
+}
+
+.region-sidebar-first .block {
+	border: dashed 1px;
+	padding: 3%;
 }
