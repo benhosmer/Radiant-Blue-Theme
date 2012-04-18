@@ -32,19 +32,9 @@
 }
 */
 
-
-/* Link Styling */
-
-
-/*
-
-a:hover {
-	color: #F0F0F0;
-}
-*/
-
 a:link {
 	color: #4A4A4A;
+	text-decoration: none;
 }
 
 a:visited {
@@ -52,7 +42,8 @@ a:visited {
 }
 
 a:hover {
-	color: #F0F0F0;
+	color: #969696;
+	text-decoration: underline;
 }
 
 a {
@@ -60,16 +51,10 @@ a {
 }
 
 a.active {
-	color: #D2D2D2;
+	color: #0A0A0A;
 
 }
 
-/*
-
-li a.active {
-	color: #D2D2D2;
-}
-*/
 
 .logo-img {
 	padding: 2%;
