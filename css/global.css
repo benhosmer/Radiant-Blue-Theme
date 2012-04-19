@@ -72,8 +72,11 @@ text-align: center;
 }
 
 .site-name-slogan {
+float: none;
 clear: both;
 text-align: center;
+display: block;
+padding-bottom: 1em;
 }
 
 
@@ -90,6 +93,14 @@ body {
 	padding-top: 2%;
 	padding-bottom: 1%;
 }
+
+
+
+.region-user-second-inner .block-system-user-menu {
+text-align: left;
+}
+
+
 
 
 .block-system-main-menu {

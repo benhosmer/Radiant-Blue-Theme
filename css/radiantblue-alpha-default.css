@@ -32,14 +32,16 @@ p {
 
 .block-system-main-menu {
 	font-size: 150%;
-	
+
 
 }
 
 .site-slogan {
-padding-top: 4%;
+font-weight: normal;
+float: right;
+padding-right: 1em;
+margin-top: -2.5em;
 font-size: 200%;
-
 }
 
 #zone-footer-wrapper {
@@ -51,9 +53,7 @@ font-size: 200%;
 	list-style-type: none;
 }
 
-.site-name-slogan {
-	float: right;
-}
+
 
 .region-branding .block-main-menu ul li.leaf {
 	display: inline;
