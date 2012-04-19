@@ -1,39 +1,18 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
-/*
-.region-user-second-inner {
-
-float: right;
-}
-*/
-
-/*
-
-body {
-	background-image: url(../img/paper-background.jpg);
-	background-attachment: fixed;
-}
-*/
-
-
 p {
 	font-size: 100%;
 }
-
-#region-user-second {
- 	float: right;
- }
-
-
- .region-user-second-inner {
- 	float: right;
- }
 
 
 .block-system-main-menu {
 	font-size: 150%;
 
 
+}
+
+.logo-img {
+float: left;
 }
 
 .site-slogan {
